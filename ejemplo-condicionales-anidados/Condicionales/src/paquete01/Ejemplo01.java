@@ -44,4 +44,8 @@ public class Ejemplo01 {
     }
 
 }
-//modificar para poder meter el token de git
+/* El usuario debe ingresar un valor de 1 a 3 segun la operacion que quiera
+si ingresa 1 va a trabajar con AND
+si ingresa 2 trabaja con OR
+si ingresa 3 trabaja con NOT
+*/
