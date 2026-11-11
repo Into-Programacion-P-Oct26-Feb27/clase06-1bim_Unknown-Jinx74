@@ -61,8 +61,10 @@ public class Comercio02 {
                 if (productividad>=80 && productividad < 200) {
                     bono = 100;
                 }else{
-                    if(productividad >= 200){
+                    if(productividad >= 200 && productividad <= 500){
                         bono = 200;
+                    }else {
+                        bono = 300;
                     }
                 }
             }
@@ -96,3 +98,8 @@ public class Comercio02 {
     }
     
 }
+/* de acuerdo a la nueva normativa, el porcentaje del seguro es variable: si el 
+empleado es de la sierra el porcentaje es de 
+sierra 10, costa 12%, oriente 15%, insular 30%
+acoplar la solucion para la normativa
+*/

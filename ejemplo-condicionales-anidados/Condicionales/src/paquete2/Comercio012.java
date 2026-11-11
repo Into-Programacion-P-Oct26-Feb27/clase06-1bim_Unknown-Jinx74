@@ -110,7 +110,7 @@ public class Comercio012 {
                 if (productividad >= 80 && productividad < 200) {
                     bono = 100;
                     sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                    System.out.printf("Reporte de Empleado %sn"
+                    System.out.printf("Reporte de Empleado %s\n\n"
                             + "Nombres: %s\n"
                             + "Apellidos: %s\n"
                             + "Edad: %d\n"
@@ -132,7 +132,7 @@ public class Comercio012 {
                             sueldoFinal);
 
                 } else {
-                    if (productividad >= 200) {
+                    if (productividad >= 200 && productividad < 300) {
                         bono = 200;
                         sueldoFinal = adicionalSeguro + bono + sueldoBasico;
                         System.out.printf("Reporte de Empleado %s\n\n"
@@ -160,7 +160,7 @@ public class Comercio012 {
                         if (productividad >= 300) {
                             bono = 300;
                             sueldoFinal = adicionalSeguro + bono + sueldoBasico;
-                            System.out.printf("Reporte de Empleado EL GRAN COMERCIO\n\n"
+                            System.out.printf("Reporte de Empleado %s\n\n"
                                     + "Nombres: %s\n"
                                     + "Apellidos: %s\n"
                                     + "Edad: %d\n"
@@ -170,6 +170,7 @@ public class Comercio012 {
                                     + "\tBono: $%.2f\n"
                                     + "Adicional del seguro: $%.2f\n\n"
                                     + "Sueldo final: $%.2f\n",
+                                    nombreEmpresa,
                                     nombre,
                                     apellido,
                                     edad,
@@ -180,7 +181,7 @@ public class Comercio012 {
                                     adicionalSeguro,
                                     sueldoFinal);
                         }
-                        }
+                    }
                 }
             }
         }
